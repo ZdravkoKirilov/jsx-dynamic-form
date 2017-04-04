@@ -134,6 +134,6 @@ There is a basic validation at the moment: if a field is marked as required and 
 
 <br>
 
-![Popup visuals](./src/assets/Validation.JPG "Simple popup form")
+![Form validation](./src/assets/Validation.JPG "Form validation")
 
 <br>
