@@ -4,7 +4,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Root from './Root';
 
 const definition = {
     title: 'Hello World',
@@ -47,7 +47,7 @@ it('renders without crashing', () => {
     const div = document.createElement('div');
 
     ReactDOM.render(
-        <App
+        <Root
             definition={definition}
         />, div);
 });
@@ -56,7 +56,7 @@ it('renders correct title', () => {
     const div = document.createElement('div');
 
     ReactDOM.render(
-        <App
+        <Root
             definition={definition}
         />, div);
 
@@ -68,7 +68,7 @@ it('renders correct confirm button', () => {
     const div = document.createElement('div');
 
     ReactDOM.render(
-        <App
+        <Root
             definition={definition}
         />, div);
 
@@ -81,7 +81,7 @@ it('should not render a cancel button if it does not appear in definition', () =
     const div = document.createElement('div');
 
     ReactDOM.render(
-        <App
+        <Root
             definition={definition}
         />, div);
 
@@ -98,7 +98,7 @@ it('should render a cancel button if it appears in definition', () => {
     };
 
     ReactDOM.render(
-        <App
+        <Root
             definition={definition}
         />, div);
 
@@ -111,7 +111,7 @@ it('should render correct fields from definition', () => {
     const div = document.createElement('div');
 
     ReactDOM.render(
-        <App
+        <Root
             definition={definition}
         />, div);
 
@@ -133,7 +133,7 @@ it('should prepopulate correct data', () => {
     };
 
     ReactDOM.render(
-        <App
+        <Root
             definition={definition}
             data={data}
         />, div);

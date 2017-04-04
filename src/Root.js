@@ -6,7 +6,7 @@ import React, {Component} from 'react';
 import Modal from './components/Modal';
 import validator from './utils/validator';
 
-class App extends Component {
+class Root extends Component {
 
     constructor(props) {
         super(props);
@@ -127,11 +127,11 @@ class App extends Component {
     }
 }
 
-App.propTypes = {
+Root.propTypes = {
     definition: React.PropTypes.object.isRequired,
     onConfirmCallback: React.PropTypes.func,
     onCancelCallback: React.PropTypes.func,
     onDeleteCallback: React.PropTypes.func,
     data: React.PropTypes.object
 };
-export default App;
+export default Root;

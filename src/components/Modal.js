@@ -31,7 +31,7 @@ class Modal extends Component {
             .bind(this);
     };
 
-    render = () => {
+    render () {
         const fields = this.createFields(this.props.fields);
         const warnings = this.createWarnings(this.props.hasInvalids);
 
