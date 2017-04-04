@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/index.js"],"names":[],"mappings":";;;;;;AAAA;;;;AACA;;;;AACA","file":"index.js","sourcesContent":["import React from 'react';\nimport ReactDOM from 'react-dom';\nimport Root from './Root';\n\nexport default Root;\n\n\n\n"]}
