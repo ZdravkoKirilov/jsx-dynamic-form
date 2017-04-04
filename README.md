@@ -1,3 +1,5 @@
-# React powered popup form component
+# React + Bootstrap powered popup form component
 
-## Test
+
+
+## Usage
